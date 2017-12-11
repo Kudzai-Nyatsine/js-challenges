@@ -1,16 +1,19 @@
 
-for(i = 1;i <= 100; i++){
+var user = parseInt(prompt("please enter number?"));
+
+
+for(i = 1;i <= user; i++){
 	if (i % 3 ===0 && i ===5) {
-		console.log('fizzbuzz');
+		alert('fizzbuzz');
 	} 
 	else if(i % 3 === 0){
-		console.log('fizz');
+		alert('fizz');
 	}
 	else if(i % 5 === 0){
-		console.log('buzz');
+		alert('buzz');
 	}
 
 	else{
-		console.log(i);
+		alert(i);
 	}
 }
